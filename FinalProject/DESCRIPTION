@@ -1,0 +1,20 @@
+Package: FinalProject
+Type: Package
+Title: Final Project BIOS524
+Version: 0.1.0
+Author: My Nguyen(Jasmine)
+Maintainer: My Nguyen <nguyenm21@vcu.edu>
+Description: The packages includes data and functions to analysis the given data.
+License: VCU
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+Imports: 
+    readr,
+    dplyr,
+    stringr,
+    lubridate,
+    nycflights13,
+    forecast
+RoxygenNote: 7.1.2
